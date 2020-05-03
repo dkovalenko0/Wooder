@@ -6,6 +6,43 @@
 	margin: 0 auto;
 }
 
+.title {
+	color: #bea67c;
+	font-size: 100px;
+	font-weight: 700;
+	line-height: 99.96px;
+	letter-spacing: 20.01px;
+}
+
+.btn {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	// line-height: 69.97px;
+	letter-spacing: 2.8px;
+
+	border: 2px solid #ffffff;
+}
+
+.line {
+	width: 4px;
+	height: 51px;
+	background-color: #c0af91;
+}
+
+.circle {
+	width: 10px;
+	height: 10px;
+	background-color: #303030;
+	border-radius: 50%;
+
+	cursor: pointer;
+}
+
+.active-circle {
+	background-color: #bea67c;
+}
+
 .text-transparent {
 	color: #fff;
 	opacity: 0.5;
