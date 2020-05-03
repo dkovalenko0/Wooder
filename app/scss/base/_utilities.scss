@@ -1,0 +1,36 @@
+// Reusuable classes
+
+
+.container {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.text-transparent {
+	color: #fff;
+	opacity: 0.5;
+
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 27px;
+	letter-spacing: 0.38px;
+
+	transition: all .3s linear;
+
+	&:hover {
+		opacity: 1;
+	}
+}
+
+.logo-lg {
+	color: #fff;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 10.8px;
+}
+
+.logo-line-lg {
+	width: 64px;
+	height: 4px;
+	background-color: #bea67c;
+}
