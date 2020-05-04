@@ -24,6 +24,88 @@
 	border: 2px solid #ffffff;
 }
 
+.block__title {
+	color: #010101;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 100px;
+	letter-spacing: 3.36px;
+}
+
+.block__text {
+	color: #464646;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 25px;
+	letter-spacing: 0.38px;
+}
+
+.block__btn {
+	position: relative;
+
+	color: #000000;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 70px;
+	text-transform: uppercase;
+	letter-spacing: 2.8px;
+
+	&:after {
+		content: url('../images/arrow-right-gold.png');
+	}
+
+	&:before {
+		content: '';
+		width: 44px;
+		border-bottom: solid 4px #bea67c;
+		position: absolute;
+		bottom: 17px;
+		z-index: 1;
+	}
+}
+
+.block__num {
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2.7px;
+
+
+	span {
+		color: #bea67c;
+	}
+}
+
+.black-line-left {
+	padding-left: 182px;
+	position: relative;
+
+	&:before {
+		content: '';
+		width: 151px;
+		border-bottom: solid 1px #000;
+		position: absolute;
+		left: 0;
+		top: 50%;
+		z-index: 1;
+	}
+}
+
+.gold-line-left {
+	padding-left: 182px;
+	position: relative;
+
+	&:before {
+		content: '';
+		width: 44px;
+		border-bottom: solid 4px #bea67c;
+		position: absolute;
+		left: 107px;
+		top: 12px;
+		z-index: 1;
+	}
+
+}
+
 .line {
 	width: 4px;
 	height: 51px;
@@ -41,6 +123,15 @@
 
 .active-circle {
 	background-color: #bea67c;
+}
+
+.large-f {
+	opacity: 0.07;
+	color: #bea67c;
+	font-size: 396px;
+	font-weight: 700;
+	line-height: 439.49px;
+	letter-spacing: 18px;
 }
 
 .text-transparent {
@@ -70,4 +161,35 @@
 	width: 64px;
 	height: 4px;
 	background-color: #bea67c;
+}
+
+.title-transparent {
+	position: absolute;
+
+	opacity: 0.2;
+	color: #d0d0d0;
+	font-size: 169px;
+	font-weight: 700;
+	letter-spacing: 3.36px;
+}
+
+.block-1 {
+		display: flex;
+		justify-content: space-between;
+		align-items: stretch;
+
+		img {
+			box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.25);
+		}
+
+		figcaption {
+			padding-top: 60px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+}
+
+.w-341 {
+	max-width: 540px;
 }

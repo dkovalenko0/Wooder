@@ -1,0 +1,28 @@
+.furniture {
+	position: relative;
+
+	margin-top: 90px;
+
+	.furniture__content {
+
+		figure {
+				.block__btn {
+					margin-left: 182px;
+				}
+
+			}
+		}
+
+	.furniture__title-transparent {
+		width: 700px;
+		overflow: hidden;
+		top: 100px;
+		right: 0;
+	}
+
+	.line {
+		position: absolute;
+		left: 385px;
+		bottom: -155px;
+	}
+}

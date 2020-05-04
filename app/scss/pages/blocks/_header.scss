@@ -1,4 +1,6 @@
 .header {
+	min-height: 1043px;
+
 	position: relative;
 
 	.header__bg {
@@ -238,5 +240,17 @@
 			bottom: -185px;
 		}
 
+	}
+
+	.large-f {
+		position: absolute;
+		left: 350px;
+		bottom: -210px;
+	}
+
+	.line-bottom {
+		position: absolute;
+		right: 380px;
+		bottom: -25px;
 	}
 }
