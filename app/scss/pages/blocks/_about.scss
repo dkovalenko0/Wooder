@@ -1,0 +1,19 @@
+.about {
+  margin-top: 138px;
+  .about__content {
+    figure {
+      position: relative;
+
+      figcaption {
+        position: absolute;
+        right: 120px;
+      }
+
+      .about__title-transparent {
+        width: 1000px;
+        overflow: hidden;
+        left: -430px;
+      }
+    }
+  }
+}
