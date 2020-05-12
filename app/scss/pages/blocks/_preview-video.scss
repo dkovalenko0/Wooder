@@ -1,0 +1,96 @@
+.preview-video {
+  position: relative;
+  margin-top: 155px;
+
+  .large-v {
+    top: -170px;
+    right: 314px;
+    z-index: 1;
+  }
+
+  .preview-video__content {
+    position: relative;
+    z-index: 2;
+
+    .video-player-lg {
+      position: absolute;
+      right: 115px;
+      top: 48px;
+      z-index: 1;
+      cursor: pointer;
+    }
+    .videos__item {
+      .test {
+        .preview-video-1 {
+          position: relative;
+
+          padding: 90px 185px;
+
+          height: 916px;
+          background: url(../images/preview-video.png) no-repeat;
+
+          video {
+            width: 1560px;
+            height: 737px;
+
+            // opacity: 0;
+            cursor: pointer;
+          }
+
+          .video-describe {
+            position: absolute;
+            z-index: 2;
+
+            border: 1px solid #bea67c;
+            width: 1560px;
+            height: 737px;
+
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            figure {
+              //   margin-left: 210px;
+              figcaption {
+                .preview-video__title {
+                  max-width: 750px;
+                  color: #bea67c;
+                  font-size: 48px;
+                  font-weight: 700;
+                  line-height: 60px;
+                  text-transform: uppercase;
+                  letter-spacing: 1.2px;
+                }
+
+                .preview-video__text {
+                  margin: 54px 0 44px;
+                  color: #ffffff;
+                  font-size: 15px;
+                  font-weight: 400;
+                  line-height: 25px;
+                  letter-spacing: 0.38px;
+                }
+
+                .btn-play {
+                  margin-left: 180px;
+                  width: 306px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  padding: 18px 0;
+                  background-color: transparent;
+                  cursor: pointer;
+
+                  &::before {
+                    content: url(../images/video-player-sm.png);
+                    margin-right: 14px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
